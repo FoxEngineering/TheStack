@@ -22,7 +22,9 @@ class TheStackDrawer extends StatelessWidget {
               ),),
             ),
           ),
-          ListTile(title: Text("Lists"),),
+          ListTile(
+            title: Text("Lists"),
+          ),
           ListTile(title: Text("History"),),
           ListTile(title: Text("Stats"),),
           ListTile(title: Text("Friends"),),
