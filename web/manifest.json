@@ -3,7 +3,7 @@
     "short_name": "the_stack",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
+    "background_color": "#ffffff",
     "theme_color": "#0175C2",
     "description": "A todo list app",
     "orientation": "portrait-primary",
