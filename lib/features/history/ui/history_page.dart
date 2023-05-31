@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:the_stack/common/the_stack_app_bar.dart';
+import 'package:the_stack/common/the_stack_drawer.dart';
 
 class HistoryPage extends StatelessWidget {
   const HistoryPage({super.key});
@@ -6,19 +8,12 @@ class HistoryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: const Text('Completed Tasks',
-          style: TextStyle(
-            color: Colors.white,
-          ),),
-        backgroundColor: Colors.brown,
-      ),
+      appBar: const TheStackAppBar(),
+      drawer: const TheStackDrawer(),
       body: IconButton(
         onPressed: () {Navigator.pushNamed(context, '/');},
         icon: const Icon(Icons.arrow_back),
       ),
-      backgroundColor: Colors.red,
     );
   }
 }

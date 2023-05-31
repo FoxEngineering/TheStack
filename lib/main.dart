@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:the_stack/features/settings/ui/settings_page.dart';
 import 'package:the_stack/features/the_stack/ui/todo_list_page.dart';
 import 'features/history/ui/history_page.dart';
 import 'features/the_stack/ui/the_stack_page.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget{
       routes: {
         '/history': (context) => const HistoryPage(),
         '/todoList': (context) => const TodoListPage(),
+        '/settings': (context) => const SettingsPage(),
       },
     );
   }

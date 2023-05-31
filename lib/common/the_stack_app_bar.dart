@@ -16,10 +16,12 @@ class TheStackAppBar extends StatelessWidget implements PreferredSizeWidget{
           )),
       ),
       backgroundColor: Colors.orangeAccent,
-      actions: [IconButton(
-        onPressed: () {Navigator.pushNamed(context, '/history');},
-        icon: const Icon(Icons.settings),
-      ),]
+      actions: [
+        IconButton(
+          onPressed: () {Navigator.pushNamed(context, '/settings');},
+          icon: const Icon(Icons.settings),
+        ),
+      ]
     );
   }
 
